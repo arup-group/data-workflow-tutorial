@@ -50,20 +50,21 @@ Click on the "Extensions" tab on the left-hand side of VSCode (four squares) and
 
 With VSCode set up, you can "clone" (i.e. copy) this repository to your device:
 
-1. In the VSCode terminal, call `git clone https://github.com/brynpickering/data-workflow-tutorial.git <output-directory>\data-workflow-tutorial`.
+1. In the VSCode terminal, call `git clone https://github.com/arup-group/data-workflow-tutorial.git <output-directory>\data-workflow-tutorial`.
 `<output-directory>` should be a directory on your device where you want to store cloned GitHub repositories (often something like `%USERPROFILE%\Repositories` on Windows or `~/Repositories` on Linux/MacOS).
 1. Then you can open that cloned repository (i.e. downloaded folder) in VSCode (`File` top-bar tab -> `Open Folder` -> navigate to `<output-directory>\data-workflow-tutorial`).
 
-### Create the masterclass conda environment
+### Create the tutorial conda environment
 
-Finally, you can create the isolated Python working environment for this masterclass:
+Finally, you can create the isolated Python working environment for this tutorial:
 
 1. In your `<output-directory>\data-workflow-tutorial` VSCode session, open a new terminal.
 1. Run the following two commands to create your working environment and then to _activate_ it:
-    ```bash
-    conda env create -f environment.yaml
-    conda activate data-workflow-tutorial
-    ```
+
+   ```bash
+   conda env create -f environment.yaml
+   conda activate data-workflow-tutorial
+   ```
 
 ### Activate the Snakemake Language extension
 
